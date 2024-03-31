@@ -1,0 +1,20 @@
+------------Start sample level correlation evaluation------------
+metric                                        spearman    pearsonr    kendalltau
+------------------------------------------  ----------  ----------  ------------
+chatgpt_coherence                             0.469917   0.484114      0.403216
+rethinking_acl2022_coherence                  0.460302   0.461606      0.353029
+unieval_coherence                             0.574907   0.553795      0.44216
+pegasus_coherence                            -0.128595  -0.0997069    -0.0976713
+albert_global_xxlarge_coherence               0.544049   0.56757       0.407855
+albert_local_avg_xxlarge_coherence            0.46935    0.489241      0.369914
+albert_merged_xxlarge_coherence_lambda_0.5    0.595343   0.619834      0.457343
+------------Start dataset level correlation evaluation------------
+metric                                        spearman    pearsonr    kendalltau
+------------------------------------------  ----------  ----------  ------------
+chatgpt_coherence                             0.434668    0.438264     0.353154
+rethinking_acl2022_coherence                  0.483227    0.482076     0.350075
+unieval_coherence                             0.591827    0.533209     0.424648
+pegasus_coherence                            -0.131578   -0.117134    -0.0932984
+albert_global_xxlarge_coherence               0.598796    0.589666     0.428856
+albert_local_avg_xxlarge_coherence            0.525851    0.504034     0.385253
+albert_merged_xxlarge_coherence_lambda_0.5    0.654328    0.638082     0.476468
